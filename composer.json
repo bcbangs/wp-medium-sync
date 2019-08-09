@@ -1,0 +1,26 @@
+{
+    "name": "bcbangs/wp-medium-sync",
+    "description": "A WordPress Plugin to synchronize your Medium posts to WordPress.",
+    "homepage": "https://www.bcbangs.com",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Fabian Böttcher",
+            "email": "fabian.boettcher@bcbangs.com",
+            "homepage": "https://www.bcbangs.com/team",
+            "role": "Developer"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3",
+        "composer/installers": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bcbangs\\WordPress\\Plugins\\MediumSync\\": "src/"
+        }
+    }
+}
